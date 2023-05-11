@@ -1,8 +1,10 @@
 import { useReducer } from 'react';
 
-export default function useStateHistory(initialValue) {
+type InitialValue<T> = () => T | T;
+
+export default function useStateHistory<T>(initialValue: InitialValue<T>) {
   const [allStates, setState] = useReducer(
-    (oldState, newState) => {
+    (oldState: T[], newState: T) => {
       return [...oldState, newState];
     },
     typeof initialValue === 'function'
