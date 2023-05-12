@@ -1,5 +1,5 @@
 {
-  "name": "@dev-shoom/handy-hooks",
+  "name": "@dev_shoom/handy-hooks",
   "version": "0.0.2",
   "description": "utility hooks",
   "main": "dist/esm/index.js",
