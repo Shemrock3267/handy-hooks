@@ -3,5 +3,5 @@
 .vscode
 node_modules/
 lib/*
-build/js/*
 public/*
+dist/
