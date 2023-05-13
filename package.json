@@ -1,6 +1,6 @@
 {
   "name": "@dev_shoom/handy-hooks",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "utility hooks",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.esm.js",
